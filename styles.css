@@ -1,0 +1,195 @@
+a, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto';
+
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  height: 60px;
+}
+
+nav > a {
+  display: inline-block;
+  padding: 22px;
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #009688;
+}
+
+.container {
+  padding: 3em;
+}
+
+#landing {
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+}
+
+#landing-text {
+  font-size: 4em;
+}
+
+#landing-subtext {
+  font-size: 1.5em;
+}
+
+footer {
+  height: 100px;
+}
+
+.footer-column {
+  width: 15%;
+  float: right;
+}
+
+.footer-column > p {
+  text-transform: uppercase;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  font-weight: 100;
+}
+
+.footer-links > li {
+  margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+  border-bottom: 1px dotted white;
+}
+
+.material-icons {
+  color: white;
+}
+
+#landing-icon {
+  font-size: 12em;
+}
+
+.paper {
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  padding: 2em;
+}
+
+.paper p, .paper h1, .paper h2, .paper h3, .paper h4, .paper h5, .paper h6 {
+  color: black;
+}
+
+.roster {
+  margin: 1em auto;
+  overflow: auto;
+  display: table;
+}
+
+.bio {
+  width: 25%;
+  height: auto;
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+}
+
+.bio-img {
+  border: 1px solid black;
+  border-radius: 2em;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  width: 75%;
+}
+
+.header {
+  text-align: center;
+  font-size: 48px;
+}
+
+.engagements {
+  margin: 3em auto;
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid #6a6a6a;
+  font-family: 'Roboto';
+  padding: .5em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#history {
+  border-collapse: collapse;
+}
+
+.loss {
+  color: #F44336
+}
+
+.win {
+  color: #4CAF50;
+}
+
+#trophies {
+  margin: 2em;
+}
+
+.trophy {
+  width: 70%;
+  margin: 0 auto;
+  overflow: auto;
+  border: 1px solid #6a6a6a;
+  border-collapse: collapse;
+}
+
+.trophy > img {
+  width: 50%;
+  height: auto;
+}
+
+.trophy-description {
+  width: 50%;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.trophy-right {
+  float: right;
+}
+
+.trophy-left {
+  float: left;
+}
+
